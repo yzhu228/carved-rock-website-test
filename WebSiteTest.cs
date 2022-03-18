@@ -17,7 +17,7 @@ public class WebSiteTest
     [TestCase("")]
     [TestCase("contact")]
     [TestCase("about")]
-    [TestCase("carabiners")]
+    [TestCase("post/carabiners")]
     public async Task Homepage_Ok_Response_Code(string relativePath)
     {
         HttpResponseMessage? response = null;
